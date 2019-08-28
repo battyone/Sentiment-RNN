@@ -43,9 +43,9 @@ ar_data_train = sequence.pad_sequences(ar_data_train, maxlen=400)
 ### **Network Architecture** 
 Recurrent neural network(RNN) was chosen for this classification. Multiple models with different 
 parameters for three architectures (SimpleRNN, LSTM, and GRU) listed below were tested:
-* [Single](https://github.com/exchhattu/DaS1819/blob/master/KerasSentimentalAnalysis/notebooks/RNN.ipynb)
-* [Bidirectional](https://github.com/exchhattu/DaS1819/blob/master/KerasSentimentalAnalysis/notebooks/Bidirectional.ipynb) 
-* [Stack](https://github.com/exchhattu/DaS1819/blob/master/KerasSentimentalAnalysis/notebooks/Stack.ipynb) 
+* [Single](https://bit.ly/30MOnRq)
+* [Bidirectional](https://bit.ly/32c3WSR)
+* [Stack](https://bit.ly/2PgwJnv)
 
 The 'rmsprop' was used as an optimizer. 
 
